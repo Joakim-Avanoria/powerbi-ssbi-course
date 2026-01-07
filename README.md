@@ -8,7 +8,7 @@ Varje video i kursen har en egen **.pbix**-fil så att du kan öppna exakt samma
 ## Struktur
 
 - `/WWI/` – övningsdata (CSV/Excel) som används i kursen  
-- `Video_XX_*.pbix` – en PBIX per video/avsnitt (färdigt läge efter videon)
+- `Video.pbix` – en PBIX per video/avsnitt (färdigt läge efter videon)
 
 Exempel:
 - `PowerQuery.pbix`
@@ -31,7 +31,7 @@ Exempel:
 
 1. Klicka på **Code → Download ZIP** (eller klona repot)
 2. Packa upp ZIP-filen lokalt
-3. Öppna önskad `Video_XX_*.pbix` i Power BI Desktop
+3. Öppna önskad `Video.pbix` i Power BI Desktop
 
 ---
 
@@ -44,6 +44,8 @@ Kursen använder en parameter (`FolderPath`):
 - Gå till **Home → Transform data**
 - Gå till **Manage Parameters**
 - Uppdatera `FolderPath` till din lokala sökväg till mappen `/WWI/`
+  
+Om du inte ser FolderPath: använd Data source settings och peka om mappen.
 
 ---
 
